@@ -7,6 +7,7 @@ metadata:
   standard: "Agile V"
   compliance: "ISO 9001 6.1, ISO 13485 8.5, ISO 27001 A.5.23/A.8.3, 21 CFR Part 11, GxP/GAMP 5"
   author: agile-v.org
+  sections_index: ["Risk Management", "CAPA Protocol", "Human Gate Approval Records", "AI Agent Security Controls", "Periodic Review & Revalidation"]
 ---
 
 # Instructions

@@ -6,6 +6,7 @@ metadata:
   version: "1.4"
   standard: "Agile V"
   author: agile-v.org
+  sections_index: ["Pipeline", "Handoffs", "Wave Execution", "Checkpoint Types"]
   adapted_from:
     - name: "Get Shit Done (GSD)"
       url: "https://github.com/gsd-build/get-shit-done"
