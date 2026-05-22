@@ -3,7 +3,7 @@ name: agile-v-core
 description: Foundational values, directives, and context engineering rules for all Agile V agents. Load this skill first in any Agile V session. For pipeline orchestration, multi-cycle lifecycle, or compliance protocols, load the corresponding agile-v-* skill on demand.
 license: CC-BY-SA-4.0
 metadata:
-  version: "1.3"
+  version: "1.4"
   standard: "Agile V"
   compliance: "ISO 9001 / ISO 27001 Aligned (Design Phase); GxP-Aware"
   author: agile-v.org
@@ -14,6 +14,16 @@ metadata:
       copyright: "Copyright (c) 2025 Lex Christopherson"
       sections: "Context Engineering"
       note: "Concepts adapted under the MIT License."
+  sections_index:
+    - Values
+    - Directives
+    - Evidence Summary Format
+    - 12 Principles
+    - SCOPE-V Task Execution Framework
+    - Context Engineering
+    - State Persistence
+    - Model Tier Guidance
+    - Companion Skills
 ---
 
 # Instructions
@@ -46,6 +56,30 @@ Decision Points: [choices] | Log: [TIMESTAMP | AGENT_ID | DECISION | RATIONALE |
 
 ## 12 Principles
 1. Continuous Validation 2. Single Source of Truth 3. HITL 4. Hardware-Aware 5. Regulatory Readiness 6. Decompositional Clarity 7. Red Team Protocol 8. Minimalist Meetings 9. Decision Logging 10. Sustainable Rigor 11. Cross-Domain Synthesis 12. Simplicity
+
+---
+
+## SCOPE-V Task Execution Framework
+
+Six-phase task execution model for Agile V agents. All agents participate in relevant phases based on their role.
+
+| Phase | Purpose | Primary Agents |
+|---|---|---|
+| **Specify** | Convert user intent into atomic, traceable requirements | Requirement Architect, Discovery Analyst, Threat Modeler, UX Spec Author |
+| **Constrain** | Apply domain-specific constraints and validation rules | Logic Gatekeeper, Domain Build Agents (NestJS, Python, JS, etc.) |
+| **Orchestrate** | Synthesize artifacts from approved requirements only | Build Agents (all types), Test Designer, Schematic Generator |
+| **Prove** | Provide evidence according to risk level (R0-R3) | Build Agents (manifest, logs), Test Designer (test cases), Compliance Auditor |
+| **Evolve** | Learn from validation failures, update knowledge | All agents (decision logging), Agile-V-Lifecycle (change requests) |
+| **Verify** | Independent verification against requirements | Red Team Verifier, Compliance Auditor |
+
+**Execution Rules:**
+1. **Single Source of Truth:** Requirements in `REQUIREMENTS.md` drive all phases
+2. **Phase Independence:** Constrain and Orchestrate never skip validation
+3. **Evidence First:** Prove phase completes before Verify phase starts
+4. **No Self-Verification:** Orchestrate agents do not execute Verify (Red Team Protocol)
+5. **Decision Logging:** Evolve phase appends to `.agile-v/DECISION_LOG.md` (never overwrites)
+
+**Domain Skills:** Technology-specific skills (e.g., build-agent-nestjs) declare which phases they participate in and how. See individual skill files for phase-specific behaviors.
 
 ---
 

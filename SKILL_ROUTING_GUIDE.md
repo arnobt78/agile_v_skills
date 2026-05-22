@@ -9,7 +9,8 @@ This guide maps common user phrases and intents to the appropriate Agile V skill
 | Convert user research/feedback into requirements | `discovery-analyst` | "Analyze user interviews", "Convert feedback to requirements", "I have customer insights" |
 | Write formal requirements from product intent | `requirement-architect` | "Write PRD", "Create requirements", "Define features", "I need a blueprint" |
 | Check requirements for ambiguity/conflicts | `logic-gatekeeper` | "Validate requirements", "Check for ambiguity", "Review constraints", "Are requirements testable?" |
-| Generate code from requirements | `build-agent` + domain-specific (e.g., `build-agent-python`) | "Implement features", "Generate code", "Build from requirements" |
+| Generate code from requirements | `build-agent` + domain-specific (e.g., `build-agent-python`, `build-agent-nestjs`) | "Implement features", "Generate code", "Build from requirements" |
+| Generate NestJS backend code | `build-agent-nestjs` | "Build NestJS API", "Implement NestJS auth", "Create microservice", "NestJS GraphQL" |
 | Design test cases | `test-designer` | "Create tests", "Design verification suite", "How do we verify this?" |
 | Verify/test implementation | `red-team-verifier` | "Run verification", "Test the build", "Challenge the code", "Find defects" |
 | Security threat modeling | `threat-modeler` | "Identify security threats", "STRIDE analysis", "Privacy assessment", "What are the security risks?" |
@@ -103,6 +104,15 @@ This guide maps common user phrases and intents to the appropriate Agile V skill
 - "Implement for microcontroller"
 - "C/C++ embedded code"
 - "Hardware integration"
+
+**`build-agent-nestjs`**
+- "Build NestJS backend"
+- "Implement NestJS API"
+- "Create NestJS microservice"
+- "NestJS authentication"
+- "NestJS GraphQL API"
+- "TypeORM integration"
+- "Prisma integration"
 
 **`test-designer`**
 - "Design test cases"

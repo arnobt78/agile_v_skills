@@ -34,6 +34,7 @@ The skills are organized following the **Agile V™ Infinity Loop**. Each skill 
 │   ├── build-agent-dart/
 │   ├── build-agent-embedded/
 │   ├── build-agent-js/
+│   ├── build-agent-nestjs/
 │   └── build-agent-python/
 ├── red-team-verifier/      # Right Side: Verification and Red Teaming
 ├── compliance-auditor/     # Compliance: Audit and governance
@@ -54,6 +55,7 @@ The skills are organized following the **Agile V™ Infinity Loop**. Each skill 
 | build-agent-js      | Apex        | `domains/build-agent-js/`    | JavaScript/TypeScript/Web build agent for web apps and backends.         |
 | build-agent-python  | Apex        | `domains/build-agent-python/`| Python build agent for scripts, backends, data pipelines, and ML.       |
 | build-agent-embedded| Apex        | `domains/build-agent-embedded/`| C/C++ build agent for embedded systems, firmware, and MCU projects.     |
+| build-agent-nestjs  | Apex        | `domains/build-agent-nestjs/`| NestJS build agent for REST/GraphQL APIs, microservices, and enterprise backends. |
 | red-team-verifier   | Right Side  | `red-team-verifier/`        | Challenges build artifacts; produces Validation Summary for Human Gate 2. Includes stub/anti-pattern detection and post-verification feedback protocol. |
 | compliance-auditor  | Compliance  | `compliance-auditor/`        | Automates decision logging, traceability matrix (ATM), and VSR for ISO/GxP. |
 | documentation-agent | Compliance  | `documentation-agent/`      | Generates standards-based repo documentation (ISO 9001, V-Model, ISO 27001, optional GAMP 5) into `docs/` with hub README, cross-reference matrix, Mermaid diagrams, and compliance posture documentation. |
